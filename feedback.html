@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <form action="main.html" class="feedback-form">
+        <h2>Give Your Feedback</h2>
+        <section>
+            <p>How much rating do you give?</p>
+            <div class="rating">
+                <label for="rate1">1</label>
+                <input type="radio" id="rate1" name="rate" required>
+                <label for="rate2">2</label>
+                <input type="radio" id="rate2" name="rate">
+                <label for="rate3">3</label>
+                <input type="radio" id="rate3" name="rate">
+                <label for="rate4">4</label>
+                <input type="radio" id="rate4" name="rate">
+                <label for="rate5">5</label>
+                <input type="radio" id="rate5" name="rate">
+            </div>
+        </section>
+        <section>
+            <p>What did you like?</p>
+            <div class="checkboxes">
+                <label for="beh">
+                    <input type="checkbox" id="beh" name="ser">
+                    Easy website navigation
+                </label>
+                <label for="exp">
+                    <input type="checkbox" id="exp" name="ser">
+                    Good service experience
+                </label>
+                <label for="web">
+                    <input type="checkbox" id="web" name="ser">
+                    Worker's good behaviour
+                </label>
+            </div>
+        </section>
+
+        <div class="feedback-section">
+            <label for="feed">Write your Feedback:</label>
+            <textarea id="feed" name="feed" placeholder="Write your comments here..." required></textarea>
+        </div><br>
+
+        <div class="button-section">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
