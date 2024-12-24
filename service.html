@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Request</title>
+    <link rel="stylesheet" href="service.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Service Request Form</h1>
+    <div class="info">
+        <form action="feedback.html">
+            <section>
+                <label for="ser_req">Select Service:</label><br>
+                <select name="ser_req" id="ser_req">
+                    <option selected>Select Service</option>
+                    <option>AC Installing</option>
+                    <option>AC Repairing</option>
+                    <option>Solar Panels</option>
+                    <option>RO</option>
+                    <option>Other</option>
+                </select>
+            </section>
+
+            <section>
+                <label for="other">Service Details:</label><br>
+                <textarea name="other" id="other" rows="5" cols="40" placeholder="Provide details about the service required"></textarea>
+            </section>
+
+            <p>Please provide your valid information:</p>
+            <section>
+                <label for="name">Enter your name:</label><br><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+                <label for="add">Enter your address:</label><br><br>
+                <input type="text" id="add" name="add" placeholder="Enter your address"><br><br>
+                <label for="pin">Pincode:</label><br><br>
+                <input type="text" id="pin" name="pin" placeholder="Enter your Pincode"><br><br>
+
+                <label for="mob">Enter your contact number:</label><br><br>
+                <input type="text" id="mob" name="mob" placeholder="Enter your mobile number"><br><br>
+            </section>
+
+            <div class="buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                <a href="main.html" class="back-button">Back Page</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
